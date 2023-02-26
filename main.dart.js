@@ -72905,23 +72905,26 @@ a=p.a.c
 a0=p.r
 a1=n.j(0)
 a2=B.b.dB(g)
-a3=p.y
-a4=t.N
-a5=t.K
-a2=A.a1(["value",a2,"correct",i===a2,"detail",B.b.dB(a3.a.a)],a4,a5)
-a6=B.b.dB(f)
-a6=A.a1(["value",a6,"correct",i===a6,"detail",B.b.dB(a3.a.a)],a4,a5)
-a7=B.b.dB(e)
-a5=A.a1(["options",A.a([a2,a6,A.a1(["value",a7,"correct",i===a7,"detail",B.b.dB(a3.a.a)],a4,a5)],t.Mq),"text",b4.a.a],a4,a5)
-a5=$.aoi().uL(A.Bi([a5]))
-a5=A.a1(["id",a,"topic",a0,"date",a1,"questions",new A.m3(a5,a5)],a4,t.z)
+a3=i===a2
+a4=a3?B.b.dB(p.y.a.a):a2
+a5=t.N
+a6=t.K
+a4=A.a1(["value",a2,"correct",a3,"detail",a4],a5,a6)
+a3=B.b.dB(f)
+a2=i===a3
+a2=A.a1(["value",a3,"correct",a2,"detail",a2?B.b.dB(p.y.a.a):a3],a5,a6)
+a3=B.b.dB(e)
+a7=i===a3
+a2=A.a1(["options",A.a([a4,a2,A.a1(["value",a3,"correct",a7,"detail",a7?B.b.dB(p.y.a.a):a3],a5,a6)],t.Mq),"text",b4.a.a],a5,a6)
+a2=$.aoi().uL(A.Bi([a2]))
+a2=A.a1(["id",a,"topic",a0,"date",a1,"questions",new A.m3(a2,a2)],a5,t.z)
 a1=A.Md(!0)
-a5=A.Bh(a5)
-a5.toString
-h.a.i5(0,a5,a1)
+a2=A.Bh(a2)
+a2.toString
+h.a.i5(0,a2,a1)
 a8=A.hS(b3,b3.gc9().eY("aiQuizes")).MU(0)
-a9=A.a1(["question",B.b.dB(b4.a.a),"topic",p.a.c,"authorAnswer",B.b.dB(o.a.a),"date",n.j(0)],a4,a4)
-for(b4=["option1","option2","option3"],b0=0,c=0;c<3;++c){a9.I(0,A.a1([b4[c],l[b0]],a4,a4));++b0}b4=A.Md(!0)
+a9=A.a1(["question",B.b.dB(b4.a.a),"topic",p.a.c,"authorAnswer",B.b.dB(o.a.a),"date",n.j(0)],a5,a5)
+for(b4=["option1","option2","option3"],b0=0,c=0;c<3;++c){a9.I(0,A.a1([b4[c],l[b0]],a5,a5));++b0}b4=A.Md(!0)
 h=A.Bh(a9)
 h.toString
 a8.a.i5(0,h,b4)
@@ -72929,15 +72932,15 @@ b1=A.hS(b3,b3.gc9().eY("aiQuizes")).e_(0,"options")
 b3=p.a.c
 o=B.b.dB(o.a.a)
 o=$.aoi().uL(A.Bi([o]))
-b2=A.a1([b3,new A.m3(o,o)],a4,t.OL)
-a4=A.Md(!0)
+b2=A.a1([b3,new A.m3(o,o)],a5,t.OL)
+a5=A.Md(!0)
 o=A.Bh(b2)
 o.toString
-b1.a.i5(0,o,a4)
+b1.a.i5(0,o,a5)
 p.a6(new A.ajr(p))
-a4=p.c.P(t.Pu)
-a4.toString
-a4.f.Rg(A.avv(null,null,B.e4,B.lg,B.X,B.Og,B.mZ,B.n7,null,null,null,null,null,null,null))
+a5=p.c.P(t.Pu)
+a5.toString
+a5.f.Rg(A.avv(null,null,B.e4,B.lg,B.X,B.Og,B.mZ,B.n7,null,null,null,null,null,null,null))
 case 5:case 1:return A.K(q,r)}})
 return A.L($async$py,r)}}
 A.ajL.prototype={
